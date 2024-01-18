@@ -112,7 +112,7 @@ public class AddStudent extends javax.swing.JFrame {
         jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         getContentPane().add(jComboBox2, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 120, -1, -1));
 
-        jComboBox3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "BCA" }));
+        jComboBox3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "BCA" ,"MCA","B-Tech","M-Tech"  } ) );
         jComboBox3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jComboBox3ActionPerformed(evt);
@@ -170,6 +170,8 @@ public class AddStudent extends javax.swing.JFrame {
         int flag = JOptionPane.showConfirmDialog(null,"Do you want ot exit","Submit",JOptionPane.YES_NO_OPTION);
         if(flag==0){
             setVisible(false);
+            AdminHomePage frame = new AdminHomePage();
+            frame.setVisible(true);
         }
         
     }//GEN-LAST:event_jButton2ActionPerformed
@@ -191,7 +193,7 @@ public class AddStudent extends javax.swing.JFrame {
             setVisible(false);
             AddStudent frame = new AddStudent();
             frame.setVisible(true);
-            frame.setLocation(null);
+            
                   
         }
         catch(Exception e){
@@ -213,7 +215,8 @@ public class AddStudent extends javax.swing.JFrame {
     }//GEN-LAST:event_jTextField3ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        // TODO add your handling code here:
+            
+                // TODO add your handling code here:
     }//GEN-LAST:event_jButton3ActionPerformed
 
     /**

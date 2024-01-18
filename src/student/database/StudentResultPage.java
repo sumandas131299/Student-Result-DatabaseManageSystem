@@ -181,6 +181,11 @@ public class StudentResultPage extends javax.swing.JFrame {
         getContentPane().add(jLabel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 500, 70, 30));
 
         jTextField7.setText("jTextField7");
+        jTextField7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField7ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jTextField7, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 210, 130, 30));
 
         jTextField8.setText("jTextField8");
@@ -202,6 +207,11 @@ public class StudentResultPage extends javax.swing.JFrame {
         getContentPane().add(jLabel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 500, 30, 30));
 
         jTextField13.setText("jTextField13");
+        jTextField13.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField13ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jTextField13, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 500, 100, 40));
 
         jLabel29.setText("Total");
@@ -289,6 +299,14 @@ public class StudentResultPage extends javax.swing.JFrame {
         int flag = JOptionPane.showConfirmDialog(null,"Are you sure you want to exit","Submit",JOptionPane.YES_NO_OPTION);
         if(flag==0) setVisible(false);
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jTextField7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField7ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField7ActionPerformed
+
+    private void jTextField13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField13ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField13ActionPerformed
 
     /**
      * @param args the command line arguments

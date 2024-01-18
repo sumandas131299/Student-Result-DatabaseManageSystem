@@ -36,6 +36,7 @@ public class ListResult extends javax.swing.JFrame {
         jScrollPane1 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
         jButton1 = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setMaximumSize(new java.awt.Dimension(700, 540));
@@ -71,6 +72,10 @@ public class ListResult extends javax.swing.JFrame {
         });
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 340, 140, 50));
 
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/student/schoolPic2.png"))); // NOI18N
+        jLabel1.setText("jLabel1");
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 700));
+
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
@@ -89,7 +94,11 @@ public class ListResult extends javax.swing.JFrame {
     }//GEN-LAST:event_formComponentShown
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
+
+        int flag = JOptionPane.showConfirmDialog(null,"Are you sure you want to exit","Submit",JOptionPane.YES_NO_OPTION);
+        if(flag==0) setVisible(false);        // TODO add your handling code here:
+        AdminHomePage frame = new AdminHomePage();
+        frame.setVisible(true);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
@@ -129,6 +138,7 @@ public class ListResult extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTable jTable1;
     // End of variables declaration//GEN-END:variables

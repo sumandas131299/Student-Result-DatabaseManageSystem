@@ -41,7 +41,7 @@ public class home extends javax.swing.JFrame {
                 jButton2ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 390, 130, 40));
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 410, 130, 40));
 
         jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/student/database/icons8-admin-settings-male-30.png"))); // NOI18N
         jButton3.setText("Admin");

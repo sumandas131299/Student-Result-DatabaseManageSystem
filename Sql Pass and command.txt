@@ -1,0 +1,31 @@
+mysql -u root -p
+root123
+
+
+MySQL Commands
+
+CREATE DATABASE StudentResultSystem;
+USE StudentResultSystem;
+CREATE TABLE student(name VARCHAR(100), rollNo VARCHAR(30) PRIMARY KEY, gender VARCHAR(7), fathername VARCHAR(40), courseName VARCHAR(40),  branchName VARCHAR(40));
+DESC student;
+TRUNCATE student; 
+            st.executeUpdate("insert into student values(' "+ rollNo+ " ', ' "+pyMarks +" ', ' "+ pyMarks+" ', ' "+ pyMarks+" ', ' "+ pyMarks+" ', ' "+ pyMarks+" ')");
+
+
+CREATE TABLE result (rollNo VARCHAR(10) PRIMARY KEY, physics INT, maths INT, chem INT, electrical INT, bio INT, result INT);
+
+ INSERT INTO student VALUES ('sam','1','male','krish','Btech','civil');
+
+  UPDATE result SET physics =10, maths =20, chem =30, electrical =40, bio =50, result =150 WHERE rollNo='1';
+
+ SELECT * FROM student;
+
+ SELECT * FROM result;
+
+SELECT name FROM student;
+
+SELECT name,rollNo FROM student;
+
+SELECT * FROM student INNER JOIN result WHERE student.rollNo=result.rollNo;
+
+SELECT * FROM student INNER JOIN result WHERE student.rollNo='1' AND result.rollNo='1';;

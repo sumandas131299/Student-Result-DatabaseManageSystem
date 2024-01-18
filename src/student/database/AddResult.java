@@ -129,7 +129,12 @@ public class AddResult extends javax.swing.JFrame {
 
         jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/student/database/schoolPic2.png"))); // NOI18N
         jLabel7.setText("jLabel7");
-        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(-90, -20, -1, -1));
+        jLabel7.addContainerListener(new java.awt.event.ContainerAdapter() {
+            public void componentAdded(java.awt.event.ContainerEvent evt) {
+                jLabel7ComponentAdded(evt);
+            }
+        });
+        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(-130, -10, -1, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -191,7 +196,13 @@ public class AddResult extends javax.swing.JFrame {
         // TODO add your handling code here:
         int flag = JOptionPane.showConfirmDialog(null,"Are you sure you want to exit","Submit",JOptionPane.YES_NO_OPTION);
         if(flag==0) setVisible(false);
+        AdminHomePage frame = new AdminHomePage();
+        frame.setVisible(true);
     }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jLabel7ComponentAdded(java.awt.event.ContainerEvent evt) {//GEN-FIRST:event_jLabel7ComponentAdded
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jLabel7ComponentAdded
 
     /**
      * @param args the command line arguments

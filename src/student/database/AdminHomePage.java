@@ -144,6 +144,8 @@ public class AdminHomePage extends javax.swing.JFrame {
         // TODO add your handling code here:
         int flag = JOptionPane.showConfirmDialog(null,"Are you sure you want to exit","Submit",JOptionPane.YES_NO_OPTION);
         if(flag==0) setVisible(false);
+        home frame = new home();
+        frame.setVisible(true);
     }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
