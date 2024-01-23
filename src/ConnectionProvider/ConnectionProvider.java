@@ -4,7 +4,7 @@
  */
 package ConnectionProvider;
 import java.sql.*;
-import java.sql.DriverManager;
+
 import java.util.*;
 import javax.swing.JOptionPane;
 

@@ -169,7 +169,7 @@ public class UpdateStudent extends javax.swing.JFrame {
         try{
             Connection con =ConnectionProvider.getCon();
             Statement st = con.createStatement();
-            st.executeUpdate("UPDATE result SET physics="+physics+",math="+math+",chemistry="+chemistry+",electrical="+electrical+",architecture="+architecture+",result="+result+" WHERE rollNo='"+rollNo+"';");
+            st.executeUpdate("UPDATE result SET physics="+physics+",maths="+math+",chem="+chemistry+",electrical="+electrical+",bio="+architecture+",result="+result+" WHERE rollNo='"+rollNo+"';");
             JOptionPane.showMessageDialog(null, "Sucessfully Updated");
             setVisible(false);
             UpdateStudent frame = new UpdateStudent();

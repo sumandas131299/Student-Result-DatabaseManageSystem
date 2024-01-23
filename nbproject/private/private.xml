@@ -3,15 +3,9 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/PROGRAMMING/Student%20management%20system/Student-Result-DatabaseManageSystem-master/src/student/database/AddResult.java</file>
-            <file>file:/D:/PROGRAMMING/Student%20management%20system/Student-Result-DatabaseManageSystem-master/src/student/database/ListStudents.java</file>
-            <file>file:/D:/PROGRAMMING/Student%20management%20system/Student-Result-DatabaseManageSystem-master/src/student/database/ListResult.java</file>
-            <file>file:/D:/PROGRAMMING/Student%20management%20system/Student-Result-DatabaseManageSystem-master/src/student/database/AddStudent.java</file>
-            <file>file:/D:/PROGRAMMING/Student%20management%20system/Student-Result-DatabaseManageSystem-master/src/student/database/StudentHomePage.java</file>
-            <file>file:/D:/PROGRAMMING/Student%20management%20system/Student-Result-DatabaseManageSystem-master/src/student/database/StudentResultPage.java</file>
-            <file>file:/D:/PROGRAMMING/Student%20management%20system/Student-Result-DatabaseManageSystem-master/src/student/database/AdminHomePage.java</file>
-            <file>file:/D:/PROGRAMMING/Student%20management%20system/Student-Result-DatabaseManageSystem-master/src/student/database/home.java</file>
-            <file>file:/D:/PROGRAMMING/Student%20management%20system/Student-Result-DatabaseManageSystem-master/src/student/database/UpdateStudent.java</file>
+            <file>file:/D:/PROGRAMMING/Student%20management%20system/Student-Result-Dbms/src/student/database/ListStudents.java</file>
+            <file>file:/D:/PROGRAMMING/Student%20management%20system/Student-Result-Dbms/src/student/database/UpdateStudent.java</file>
+            <file>file:/D:/PROGRAMMING/Student%20management%20system/Student-Result-Dbms/src/student/database/ListResult.java</file>
         </group>
     </open-files>
 </project-private>
